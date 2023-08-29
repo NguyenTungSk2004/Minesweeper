@@ -28,17 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             groupGameForm2 = new GroupBox();
             timeView = new Label();
             label2 = new Label();
             button2 = new Button();
             pictureBox1 = new PictureBox();
+            settings = new Button();
+            home = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // groupGameForm2
             // 
-            groupGameForm2.Location = new Point(124, 111);
+            groupGameForm2.Location = new Point(118, 111);
             groupGameForm2.Name = "groupGameForm2";
             groupGameForm2.Size = new Size(593, 608);
             groupGameForm2.TabIndex = 0;
@@ -49,7 +52,7 @@
             // 
             timeView.BackColor = SystemColors.ControlLight;
             timeView.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            timeView.Location = new Point(580, 24);
+            timeView.Location = new Point(574, 24);
             timeView.Name = "timeView";
             timeView.Size = new Size(204, 67);
             timeView.TabIndex = 1;
@@ -62,7 +65,7 @@
             label2.Enabled = false;
             label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ControlText;
-            label2.Location = new Point(333, 24);
+            label2.Location = new Point(327, 24);
             label2.Name = "label2";
             label2.Size = new Size(200, 68);
             label2.TabIndex = 1;
@@ -72,7 +75,7 @@
             // button2
             // 
             button2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(93, 25);
+            button2.Location = new Point(87, 25);
             button2.Name = "button2";
             button2.Size = new Size(188, 67);
             button2.TabIndex = 3;
@@ -89,11 +92,35 @@
             pictureBox1.TabIndex = 4;
             pictureBox1.TabStop = false;
             // 
+            // settings
+            // 
+            settings.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            settings.Location = new Point(741, 680);
+            settings.Name = "settings";
+            settings.Size = new Size(103, 51);
+            settings.TabIndex = 9;
+            settings.Text = "Settings";
+            settings.UseVisualStyleBackColor = true;
+            // 
+            // home
+            // 
+            home.BackColor = SystemColors.InactiveBorder;
+            home.Cursor = Cursors.Hand;
+            home.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            home.Image = (Image)resources.GetObject("home.Image");
+            home.Location = new Point(0, 687);
+            home.Name = "home";
+            home.Size = new Size(90, 44);
+            home.TabIndex = 8;
+            home.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(844, 731);
+            Controls.Add(settings);
+            Controls.Add(home);
             Controls.Add(button2);
             Controls.Add(label2);
             Controls.Add(timeView);
@@ -113,5 +140,7 @@
         private Label label2;
         private Button button2;
         private PictureBox pictureBox1;
+        private Button settings;
+        private Label home;
     }
 }

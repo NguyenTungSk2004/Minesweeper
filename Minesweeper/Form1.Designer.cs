@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             groupGameForm1 = new GroupBox();
             label1 = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
@@ -36,12 +37,14 @@
             pictureBox1 = new PictureBox();
             label2 = new Label();
             label3 = new Label();
+            home = new Label();
+            settings = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // groupGameForm1
             // 
-            groupGameForm1.Location = new Point(95, 82);
+            groupGameForm1.Location = new Point(97, 82);
             groupGameForm1.Name = "groupGameForm1";
             groupGameForm1.Size = new Size(494, 507);
             groupGameForm1.TabIndex = 0;
@@ -99,11 +102,35 @@
             label3.Text = "Lần ấn";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // home
+            // 
+            home.BackColor = SystemColors.InactiveBorder;
+            home.Cursor = Cursors.Hand;
+            home.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            home.Image = (Image)resources.GetObject("home.Image");
+            home.Location = new Point(0, 557);
+            home.Name = "home";
+            home.Size = new Size(90, 44);
+            home.TabIndex = 5;
+            home.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // settings
+            // 
+            settings.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            settings.Location = new Point(597, 550);
+            settings.Name = "settings";
+            settings.Size = new Size(103, 51);
+            settings.TabIndex = 7;
+            settings.Text = "Settings";
+            settings.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
             AutoValidate = AutoValidate.Disable;
             ClientSize = new Size(700, 601);
+            Controls.Add(settings);
+            Controls.Add(home);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(timeView);
@@ -130,5 +157,7 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label3;
+        private Label home;
+        private Button settings;
     }
 }

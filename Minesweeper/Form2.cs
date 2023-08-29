@@ -46,10 +46,14 @@ namespace Minesweeper
 
         private void exit(object sender, EventArgs e)
         {
-            Close();
+            DialogResult result = MessageBox.Show("Bạn có muốn thoát không","Thông báo",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if(result == DialogResult.Yes)
+            {
+                Close();
+            }
         }
 
-        private void settings_click (object sender, EventArgs e)
+        private void settings_click(object sender, EventArgs e)
         {
             Form5 form5 = new Form5();
             form5.ShowDialog();
@@ -63,7 +67,7 @@ namespace Minesweeper
             settings.Click += new EventHandler(settings_click);
             FistloadMusic();
         }
-        
+
         private void FistloadMusic()
         {
             if (isMusicOn)

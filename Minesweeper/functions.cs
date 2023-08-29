@@ -428,5 +428,9 @@ namespace Minesweeper
             }
         }
 
+        public void buttonsClear()
+        {
+            buttons.Clear();
+        }
     }
 }

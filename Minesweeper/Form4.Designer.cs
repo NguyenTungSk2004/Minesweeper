@@ -28,11 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             groupGameForm3 = new GroupBox();
             label1 = new Label();
             pictureBox1 = new PictureBox();
             timeView = new Label();
             label3 = new Label();
+            settings = new Button();
+            home = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -88,12 +91,36 @@
             label3.Text = "Lần ấn";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // settings
+            // 
+            settings.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            settings.Location = new Point(956, 874);
+            settings.Name = "settings";
+            settings.Size = new Size(103, 51);
+            settings.TabIndex = 9;
+            settings.Text = "Settings";
+            settings.UseVisualStyleBackColor = true;
+            // 
+            // home
+            // 
+            home.BackColor = SystemColors.InactiveBorder;
+            home.Cursor = Cursors.Hand;
+            home.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            home.Image = (Image)resources.GetObject("home.Image");
+            home.Location = new Point(0, 881);
+            home.Name = "home";
+            home.Size = new Size(90, 44);
+            home.TabIndex = 8;
+            home.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             ClientSize = new Size(1059, 925);
+            Controls.Add(settings);
+            Controls.Add(home);
             Controls.Add(groupGameForm3);
             Controls.Add(label3);
             Controls.Add(timeView);
@@ -113,5 +140,7 @@
         private PictureBox pictureBox1;
         private Label timeView;
         private Label label3;
+        private Button settings;
+        private Label home;
     }
 }
