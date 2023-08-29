@@ -1,0 +1,160 @@
+D:\C#\Minesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+D:\C#\Minesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+D:\C#\Minesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+D:\C#\Minesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\Minesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+C:\Users\ROG STRIX\Documents\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+C:\Users\nguye\Documents\Zalo Received Files\Minesweeper (1)\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+D:\C#\testgit\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+D:\C#\testgit\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+D:\C#\testgit\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+D:\C#\testgit\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\testgit\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+D:\C#\testgit\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+D:\C#\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+D:\C#\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+D:\C#\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+D:\C#\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
+C:\Users\ROG STRIX\Documents\Code\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+C:\Users\nguye\Downloads\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+D:\C#\save\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.exe
+D:\C#\save\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.deps.json
+D:\C#\save\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.runtimeconfig.json
+D:\C#\save\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\save\GameMinesweeper\Minesweeper\bin\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.AssemblyReference.cache
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form1.resources
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form2.resources
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Properties.Resources.resources
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.GenerateResource.cache
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfoInputs.cache
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.AssemblyInfo.cs
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.csproj.CoreCompileInputs.cache
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.dll
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\refint\Minesweeper.dll
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.pdb
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.genruntimeconfig.cache
+D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.dll
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
+D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
