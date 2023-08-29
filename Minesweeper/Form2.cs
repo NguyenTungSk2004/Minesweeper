@@ -12,9 +12,12 @@ namespace Minesweeper
 {
     public partial class Form2 : Form
     {
+        private SoundManager soundManager;
+        public static bool isMusicOn = true;
         public Form2()
         {
             InitializeComponent();
+            soundManager = new SoundManager();
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -45,12 +48,33 @@ namespace Minesweeper
         {
             Close();
         }
+
+        private void settings_click (object sender, EventArgs e)
+        {
+            Form5 form5 = new Form5();
+            form5.ShowDialog();
+        }
         private void Form2_Load(object sender, EventArgs e)
         {
             btn1.Click += new EventHandler(btn1_Click);
             btn2.Click += new EventHandler(btn2_Click);
             btn3.Click += new EventHandler(btn3_Click);
             Exit.Click += new EventHandler(exit);
+            settings.Click += new EventHandler(settings_click);
+            FistloadMusic();
+        }
+        
+        private void FistloadMusic()
+        {
+            if (isMusicOn)
+            {
+                string netWindows = Path.GetDirectoryName(Application.ExecutablePath);
+                string Debug = Directory.GetParent(netWindows).FullName;
+                string bin = Directory.GetParent(Debug).FullName;
+                string Minesweeper = Directory.GetParent(bin).FullName;
+                string path = Path.Combine(Minesweeper, "Resources", "NhacNen.wav");
+                soundManager.PlaySoundLooping(path);
+            }
         }
     }
 }

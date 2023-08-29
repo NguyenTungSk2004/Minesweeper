@@ -31,7 +31,7 @@
             btn1 = new Button();
             btn2 = new Button();
             btn3 = new Button();
-            button4 = new Button();
+            settings = new Button();
             Exit = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -71,17 +71,19 @@
             btn3.Text = "15 x 15";
             btn3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // settings
             // 
-            button4.Location = new Point(212, 382);
-            button4.Name = "button4";
-            button4.Size = new Size(129, 56);
-            button4.TabIndex = 2;
-            button4.Text = "Reset";
-            button4.UseVisualStyleBackColor = true;
+            settings.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            settings.Location = new Point(212, 382);
+            settings.Name = "settings";
+            settings.Size = new Size(129, 56);
+            settings.TabIndex = 2;
+            settings.Text = "Settings";
+            settings.UseVisualStyleBackColor = true;
             // 
             // Exit
             // 
+            Exit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             Exit.Location = new Point(455, 382);
             Exit.Name = "Exit";
             Exit.Size = new Size(129, 56);
@@ -119,7 +121,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(label1);
             Controls.Add(Exit);
-            Controls.Add(button4);
+            Controls.Add(settings);
             Controls.Add(btn3);
             Controls.Add(btn2);
             Controls.Add(btn1);
@@ -136,7 +138,7 @@
         private Button btn1;
         private Button btn2;
         private Button btn3;
-        private Button button4;
+        private Button settings;
         private Button Exit;
         private PictureBox pictureBox1;
         private Label label1;
