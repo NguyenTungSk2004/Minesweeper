@@ -294,24 +294,30 @@ namespace Minesweeper
             else if (e.Button == MouseButtons.Right)
             {
                 btn.Text = "";
-                btn.Text = "";
                 string Minesweeper = createPathToResources();
-                string imagePath = Path.Combine(Minesweeper, "flag.png");
-                btn.Image = Image.FromFile(imagePath);
+                if (btn.Image == null)
+                {
+                    string imagePath = Path.Combine(Minesweeper, "flag.png");
+                    btn.Image = Image.FromFile(imagePath);
+                }
+                else
+                {
+                    btn.Image = null;
+                }
             }
         }
         //Hàm sự kiện cho những button có boom
         private void Boom(object sender, MouseEventArgs e)
         {
             Button btn = (Button)sender;
-            if(e.Button == MouseButtons.Left)
+            string Minesweeper = createPathToResources();
+            if (e.Button == MouseButtons.Left)
             { 
                 foreach(Button button in buttons)
                 {
                     if((int)button.Tag == -1)
                     {
                         button.Text = "";
-                        string Minesweeper = createPathToResources();
                         string imagePath = Path.Combine(Minesweeper, "boom.png");
                         button.Image = Image.FromFile(imagePath);
                     }
@@ -325,10 +331,15 @@ namespace Minesweeper
             else if(e.Button == MouseButtons.Right)
             {
                 btn.Text = "";
-                btn.Text = "";
-                string Minesweeper = createPathToResources();
-                string imagePath = Path.Combine(Minesweeper, "flag.png");
-                btn.Image = Image.FromFile(imagePath);
+                if (btn.Image == null)
+                {
+                    string imagePath = Path.Combine(Minesweeper, "flag.png");
+                    btn.Image = Image.FromFile(imagePath);
+                }
+                else
+                {
+                    btn.Image = null;
+                }
             }
         }
 
