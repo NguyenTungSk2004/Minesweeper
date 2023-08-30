@@ -1,5 +1,8 @@
-namespace Minesweeper
+﻿namespace Minesweeper
 {
+    /// <summary>
+    /// Form giao diện level 10x10
+    /// </summary>
     public partial class Form1 : Form
     {
         public Form1()

@@ -16,6 +16,8 @@ namespace Minesweeper
         public Form5()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.StartPosition = FormStartPosition.CenterScreen; 
             Music.CheckedChanged += new EventHandler(MusicCheckBox_CheckedChanged);
             Music.Checked = Form2.isMusicOn;
         }

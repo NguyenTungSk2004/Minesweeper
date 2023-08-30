@@ -127,7 +127,7 @@
             Controls.Add(btn1);
             Controls.Add(pictureBox1);
             Name = "Form2";
-            Text = "Form2";
+            Text = "Home";
             Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

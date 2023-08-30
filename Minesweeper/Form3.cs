@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Minesweeper
 {
+    /// <summary>
+    /// Form giao diện level 12x12
+    /// </summary>
     public partial class Form3 : Form
     {
         public Form3()

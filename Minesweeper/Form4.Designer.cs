@@ -50,13 +50,13 @@
             // 
             // label1
             // 
-            label1.BackColor = SystemColors.HotTrack;
+            label1.BackColor = SystemColors.GradientActiveCaption;
             label1.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(396, 38);
             label1.Name = "label1";
             label1.Size = new Size(282, 77);
             label1.TabIndex = 1;
-            label1.Text = "Minesweeper";
+            label1.Text = "15x15";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox1

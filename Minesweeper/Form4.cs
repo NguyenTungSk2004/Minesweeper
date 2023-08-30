@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Minesweeper
 {
+    /// <summary>
+    /// Form giao diện level 15x15
+    /// </summary>
     public partial class Form4 : Form
     {
         public Form4()
@@ -25,8 +28,8 @@ namespace Minesweeper
             functions function = new functions(this, "Form4");
             function.FillGroupGame(groupGameForm3, 15, 15);
             timer.startTimer();
-            home.Click += new EventHandler(BackHome);
-            settings.Click += new EventHandler(settings_Click);
+            home.Click += new EventHandler(BackHome); //thêm sự kiện click nút home
+            settings.Click += new EventHandler(settings_Click); //Thêm sự kiện click nút settings
         }
 
         private void settings_Click(object sender, EventArgs e)

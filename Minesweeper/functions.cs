@@ -49,7 +49,7 @@ namespace Minesweeper
 
         public void RanDomBoom(GroupBox groupBox, int rows, int columns)
         {
-            int soLuong = (rows *columns)*1/100;
+            int soLuong = (rows *columns)*20/100;
 
             foreach (Control control in groupBox.Controls)
             {
@@ -268,11 +268,8 @@ namespace Minesweeper
             {
                 btn.Text = "";
                 btn.Text = "";
-                string netWindows = Path.GetDirectoryName(Application.ExecutablePath);
-                string Debug = Directory.GetParent(netWindows).FullName;
-                string bin = Directory.GetParent(Debug).FullName;
-                string Minesweeper = Directory.GetParent(bin).FullName;
-                string imagePath = Path.Combine(Minesweeper, "Resources", "flag.png");
+                string Minesweeper = createPathToResources();
+                string imagePath = Path.Combine(Minesweeper, "flag.png");
                 btn.Image = Image.FromFile(imagePath);
             }
         }
@@ -287,11 +284,8 @@ namespace Minesweeper
                     if((int)button.Tag == -1)
                     {
                         button.Text = "";
-                        string netWindows = Path.GetDirectoryName(Application.ExecutablePath);
-                        string Debug = Directory.GetParent(netWindows).FullName;
-                        string bin = Directory.GetParent(Debug).FullName;
-                        string Minesweeper = Directory.GetParent(bin).FullName;
-                        string imagePath = Path.Combine(Minesweeper, "Resources", "boom.png");
+                        string Minesweeper = createPathToResources();
+                        string imagePath = Path.Combine(Minesweeper, "boom.png");
                         button.Image = Image.FromFile(imagePath);
                     }
                     else
@@ -305,11 +299,8 @@ namespace Minesweeper
             {
                 btn.Text = "";
                 btn.Text = "";
-                string netWindows = Path.GetDirectoryName(Application.ExecutablePath);
-                string Debug = Directory.GetParent(netWindows).FullName;
-                string bin = Directory.GetParent(Debug).FullName;
-                string Minesweeper = Directory.GetParent(bin).FullName;
-                string imagePath = Path.Combine(Minesweeper, "Resources", "flag.png");
+                string Minesweeper = createPathToResources();
+                string imagePath = Path.Combine(Minesweeper, "flag.png");
                 btn.Image = Image.FromFile(imagePath);
             }
         }
@@ -412,6 +403,9 @@ namespace Minesweeper
             }
         }
 
+        /// <summary>
+        /// Khi bạn ấn vào boom sẽ hiện lên thông báo chơi lại hay quay trở lại màn hình chính
+        /// </summary>
         private void GameOver()
         {
             DialogResult result = MessageBox.Show("Bạn đã dính boom !", "GameOver", MessageBoxButtons.RetryCancel, MessageBoxIcon.None);
@@ -446,9 +440,25 @@ namespace Minesweeper
             }
         }
 
+        /// <summary>
+        /// Phương thức buttonsClear() hiện chỉ được sử dụng cho nút BackHome
+        /// </summary>
         public void buttonsClear()
         {
             buttons.Clear();
+        }
+
+        /// <summary>
+        /// Hàm đươc sử dụng để tạo đường dẫn đến thư mục Resources chứa file ảnh và âm thanh
+        /// </summary>
+       private string createPathToResources()
+        {
+            string netWindows = Path.GetDirectoryName(Application.ExecutablePath);
+            string Debug = Directory.GetParent(netWindows).FullName;
+            string bin = Directory.GetParent(Debug).FullName;
+            string Minesweeper = Directory.GetParent(bin).FullName;
+            string path = Path.Combine(Minesweeper, "Resources");
+            return path;
         }
     }
 }

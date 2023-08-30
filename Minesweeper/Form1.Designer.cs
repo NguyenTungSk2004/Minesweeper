@@ -63,7 +63,7 @@
             // 
             timeView.BackColor = SystemColors.InactiveBorder;
             timeView.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            timeView.Location = new Point(495, 17);
+            timeView.Location = new Point(492, 17);
             timeView.Name = "timeView";
             timeView.Size = new Size(165, 44);
             timeView.TabIndex = 5;
@@ -84,18 +84,18 @@
             // 
             label2.BackColor = SystemColors.GradientActiveCaption;
             label2.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(273, 17);
+            label2.Location = new Point(267, 17);
             label2.Name = "label2";
             label2.Size = new Size(165, 44);
             label2.TabIndex = 5;
-            label2.Text = "Minesweeper";
+            label2.Text = "10x10";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // highScore
             // 
             highScore.BackColor = SystemColors.InactiveBorder;
             highScore.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            highScore.Location = new Point(62, 17);
+            highScore.Location = new Point(53, 17);
             highScore.Name = "highScore";
             highScore.Size = new Size(165, 44);
             highScore.TabIndex = 5;

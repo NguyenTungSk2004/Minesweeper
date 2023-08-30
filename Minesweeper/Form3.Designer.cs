@@ -65,17 +65,17 @@
             label2.Enabled = false;
             label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = SystemColors.ControlText;
-            label2.Location = new Point(327, 24);
+            label2.Location = new Point(308, 24);
             label2.Name = "label2";
             label2.Size = new Size(200, 68);
             label2.TabIndex = 1;
-            label2.Text = "Minesweeper";
+            label2.Text = "12x12";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // highScore
             // 
             highScore.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            highScore.Location = new Point(87, 25);
+            highScore.Location = new Point(61, 25);
             highScore.Name = "highScore";
             highScore.Size = new Size(188, 67);
             highScore.TabIndex = 3;
