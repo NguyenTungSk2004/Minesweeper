@@ -17,6 +17,8 @@ namespace Minesweeper
         public Form2()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.StartPosition = FormStartPosition.CenterScreen;
             soundManager = new SoundManager();
         }
 

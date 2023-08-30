@@ -33,7 +33,7 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             timeView = new Label();
-            label3 = new Label();
+            highScore = new Label();
             settings = new Button();
             home = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -77,19 +77,19 @@
             timeView.Name = "timeView";
             timeView.Size = new Size(282, 77);
             timeView.TabIndex = 1;
-            timeView.Text = "Thời gian";
+            timeView.Text = "Time";
             timeView.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // highScore
             // 
-            label3.BackColor = SystemColors.ControlLightLight;
-            label3.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(73, 38);
-            label3.Name = "label3";
-            label3.Size = new Size(282, 77);
-            label3.TabIndex = 1;
-            label3.Text = "Lần ấn";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
+            highScore.BackColor = SystemColors.ControlLightLight;
+            highScore.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            highScore.Location = new Point(73, 38);
+            highScore.Name = "highScore";
+            highScore.Size = new Size(282, 77);
+            highScore.TabIndex = 1;
+            highScore.Text = "HighScore";
+            highScore.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // settings
             // 
@@ -122,7 +122,7 @@
             Controls.Add(settings);
             Controls.Add(home);
             Controls.Add(groupGameForm3);
-            Controls.Add(label3);
+            Controls.Add(highScore);
             Controls.Add(timeView);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
@@ -139,7 +139,7 @@
         private Label label1;
         private PictureBox pictureBox1;
         private Label timeView;
-        private Label label3;
+        private Label highScore;
         private Button settings;
         private Label home;
     }

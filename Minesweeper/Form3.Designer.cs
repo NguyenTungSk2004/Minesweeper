@@ -32,7 +32,7 @@
             groupGameForm2 = new GroupBox();
             timeView = new Label();
             label2 = new Label();
-            button2 = new Button();
+            highScore = new Button();
             pictureBox1 = new PictureBox();
             settings = new Button();
             home = new Label();
@@ -56,7 +56,7 @@
             timeView.Name = "timeView";
             timeView.Size = new Size(204, 67);
             timeView.TabIndex = 1;
-            timeView.Text = "Thời gian";
+            timeView.Text = "Time";
             timeView.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -72,15 +72,15 @@
             label2.Text = "Minesweeper";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // highScore
             // 
-            button2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.Location = new Point(87, 25);
-            button2.Name = "button2";
-            button2.Size = new Size(188, 67);
-            button2.TabIndex = 3;
-            button2.Text = "Số lần ấn";
-            button2.UseVisualStyleBackColor = true;
+            highScore.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            highScore.Location = new Point(87, 25);
+            highScore.Name = "highScore";
+            highScore.Size = new Size(188, 67);
+            highScore.TabIndex = 3;
+            highScore.Text = "HighScore";
+            highScore.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -121,7 +121,7 @@
             ClientSize = new Size(844, 731);
             Controls.Add(settings);
             Controls.Add(home);
-            Controls.Add(button2);
+            Controls.Add(highScore);
             Controls.Add(label2);
             Controls.Add(timeView);
             Controls.Add(groupGameForm2);
@@ -138,7 +138,7 @@
         private GroupBox groupGameForm2;
         private Label timeView;
         private Label label2;
-        private Button button2;
+        private Button highScore;
         private PictureBox pictureBox1;
         private Button settings;
         private Label home;

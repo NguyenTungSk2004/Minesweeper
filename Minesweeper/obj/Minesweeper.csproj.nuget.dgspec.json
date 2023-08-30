@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\GameMinesweeper\\Minesweeper\\Minesweeper.csproj": {}
+    "D:\\C#\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {}
   },
   "projects": {
-    "D:\\C#\\GameMinesweeper\\Minesweeper\\Minesweeper.csproj": {
+    "D:\\C#\\Minesweeper\\Minesweeper\\Minesweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\GameMinesweeper\\Minesweeper\\Minesweeper.csproj",
+        "projectUniqueName": "D:\\C#\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
         "projectName": "Minesweeper",
-        "projectPath": "D:\\C#\\GameMinesweeper\\Minesweeper\\Minesweeper.csproj",
+        "projectPath": "D:\\C#\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\GameMinesweeper\\Minesweeper\\obj\\",
+        "outputPath": "D:\\C#\\Minesweeper\\Minesweeper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",

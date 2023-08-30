@@ -159,3 +159,6 @@ D:\C#\save\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\ref\Minesweeper.
 D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
 D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
 D:\C#\GameMinesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form5.resources
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form3.resources
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form4.resources
+D:\C#\Minesweeper\Minesweeper\obj\Debug\net7.0-windows\Minesweeper.Form5.resources

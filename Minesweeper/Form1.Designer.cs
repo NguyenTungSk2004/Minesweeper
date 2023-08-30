@@ -36,7 +36,7 @@
             timeView = new Label();
             pictureBox1 = new PictureBox();
             label2 = new Label();
-            label3 = new Label();
+            highScore = new Label();
             home = new Label();
             settings = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -67,7 +67,7 @@
             timeView.Name = "timeView";
             timeView.Size = new Size(165, 44);
             timeView.TabIndex = 5;
-            timeView.Text = "Thời gian";
+            timeView.Text = "Time";
             timeView.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
@@ -91,16 +91,16 @@
             label2.Text = "Minesweeper";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // highScore
             // 
-            label3.BackColor = SystemColors.InactiveBorder;
-            label3.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(62, 17);
-            label3.Name = "label3";
-            label3.Size = new Size(165, 44);
-            label3.TabIndex = 5;
-            label3.Text = "Lần ấn";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
+            highScore.BackColor = SystemColors.InactiveBorder;
+            highScore.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            highScore.Location = new Point(62, 17);
+            highScore.Name = "highScore";
+            highScore.Size = new Size(165, 44);
+            highScore.TabIndex = 5;
+            highScore.Text = "HighScore";
+            highScore.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // home
             // 
@@ -131,7 +131,7 @@
             ClientSize = new Size(700, 601);
             Controls.Add(settings);
             Controls.Add(home);
-            Controls.Add(label3);
+            Controls.Add(highScore);
             Controls.Add(label2);
             Controls.Add(timeView);
             Controls.Add(label1);
@@ -156,7 +156,7 @@
         private Label timeView;
         private PictureBox pictureBox1;
         private Label label2;
-        private Label label3;
+        private Label highScore;
         private Label home;
         private Button settings;
     }

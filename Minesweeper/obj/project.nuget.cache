@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5+d4mmKln9VdNZKB+EE/FI8Td7VTGXYm7uCUouWC11HYR5F9Kk1IGp7MPNV0TseMaPCqQmIOhSwhCZgPxmS1Q==",
+  "dgSpecHash": "MKckjIwJuAT9jHjAgvgvDd0aCwPBfXJHF7ukrh8DYCa3N3zZOqZB0XRpmMcJN3Gt/ISoa6GV1B/H7oFOuUV07g==",
   "success": true,
-  "projectFilePath": "D:\\C#\\GameMinesweeper\\Minesweeper\\Minesweeper.csproj",
+  "projectFilePath": "D:\\C#\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

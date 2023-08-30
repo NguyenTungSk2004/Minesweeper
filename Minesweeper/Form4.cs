@@ -16,6 +16,7 @@ namespace Minesweeper
         {
             InitializeComponent();
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void Form4_Load(object sender, EventArgs e)
