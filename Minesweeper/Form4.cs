@@ -27,7 +27,7 @@ namespace Minesweeper
             time timer = new time(timeView);
             functions function = new functions(this, "Form4", timer);
             highscore score = new highscore();
-           
+
             function.FillGroupGame(groupGameForm3, 15, 15);
             highScore.Text = score.highScore_Show("Form4");
             timer.startTimer();

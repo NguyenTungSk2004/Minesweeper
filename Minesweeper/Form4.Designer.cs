@@ -126,6 +126,7 @@
             Controls.Add(timeView);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            MaximizeBox = false;
             Name = "Form4";
             Text = "Minesweeper";
             Load += Form4_Load;

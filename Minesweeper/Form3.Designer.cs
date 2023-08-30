@@ -127,6 +127,7 @@
             Controls.Add(timeView);
             Controls.Add(groupGameForm2);
             Controls.Add(pictureBox1);
+            MaximizeBox = false;
             Name = "Form3";
             Text = "Minesweeper";
             Load += Form3_Load;

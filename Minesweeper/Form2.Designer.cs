@@ -126,6 +126,7 @@
             Controls.Add(btn2);
             Controls.Add(btn1);
             Controls.Add(pictureBox1);
+            MaximizeBox = false;
             Name = "Form2";
             Text = "Home";
             Load += Form2_Load;
