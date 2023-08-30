@@ -93,7 +93,7 @@ namespace Minesweeper
             }
             else
             {
-                return $"Fist HighScore";
+                return $"HighScore";
             }
         }
 
