@@ -21,7 +21,7 @@ namespace Minesweeper
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            time timer = new time(this, timeView);
+            time timer = new time(timeView);
             functions function = new functions(this, "Form3");
             function.FillGroupGame(groupGameForm2, 12, 12);
             timer.startTimer();

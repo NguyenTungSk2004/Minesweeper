@@ -66,7 +66,7 @@ namespace Minesweeper
             {
                 int index = random.Next(0, buttons.Count);
                 buttons[index].Tag = -1;
-                buttons[index].MouseDown += (sender, e) => Boom(sender, e, groupBox, rows, columns);
+                buttons[index].MouseDown += (sender, e) => Boom(sender, e);
             }
 
             foreach (Button button in buttons)
@@ -277,7 +277,7 @@ namespace Minesweeper
             }
         }
         //Hàm sự kiện cho những button có boom
-        private void Boom(object sender, MouseEventArgs e, GroupBox groupBox, int rows, int columns)
+        private void Boom(object sender, MouseEventArgs e)
         {
             Button btn = (Button)sender;
             if(e.Button == MouseButtons.Left)
@@ -299,7 +299,7 @@ namespace Minesweeper
                         color.changeColor(button);
                     }
                 }
-                GameOver(sender, e,groupBox, rows, columns);
+                GameOver();
             }
             else if(e.Button == MouseButtons.Right)
             {
@@ -314,6 +314,11 @@ namespace Minesweeper
             }
         }
 
+        /// <summary>
+        /// Khi chiến thắng game thì hiện hộp thoại thông báo chiến thắng, sau đó hiển thị hộp thoại hỏi bạn có muốn 
+        /// chơi tiếp màn tiếp theo hay không, hay muốn chơi lại, hay quay về màn hình chính.
+        /// Nếu là màn cuối thì sau khi ấn ok sẽ quay trở về màn hình chính
+        /// </summary>
         private void GameVictory()
         {
             bool victory = true;
@@ -329,9 +334,9 @@ namespace Minesweeper
             }
             if (victory == true)
             {
-                DialogResult result = MessageBox.Show("Bạn đã chiến thắng !", "Victory", MessageBoxButtons.OK, MessageBoxIcon.None);
                 if(checkForm != "Form4")
                 {
+                    DialogResult result = MessageBox.Show("Bạn đã chiến thắng !", "Victory", MessageBoxButtons.OK, MessageBoxIcon.None);
                     if (result == DialogResult.OK)
                     {
                         DialogResult dialog = MessageBox.Show("Bạn có muốn tiếp tục không?", "Question", MessageBoxButtons.CancelTryContinue, MessageBoxIcon.Question);
@@ -385,16 +390,29 @@ namespace Minesweeper
                 }
                 else
                 {
-                    buttons.Clear();
-                    form.Hide();
-                    Form2 form2 = new Form2();
-                    form2.ShowDialog();
-                    form.Close();
+                    DialogResult result = MessageBox.Show("Bạn đã chiến thắng !", "Victory", MessageBoxButtons.RetryCancel, MessageBoxIcon.None);
+                    if(result == DialogResult.Retry)
+                    {
+                        buttons.Clear();
+                        form.Hide();
+                        Form4 form4 = new Form4();
+                        form4.ShowDialog();
+                        form.Close();
+                    }
+                    else
+                    {
+                        buttons.Clear();
+                        form.Hide();
+                        Form2 form2 = new Form2();
+                        form2.ShowDialog();
+                        form.Close();
+                    }
+
                 }
             }
         }
 
-        private void GameOver(object sender, MouseEventArgs e,GroupBox groupBox, int rows, int columns)
+        private void GameOver()
         {
             DialogResult result = MessageBox.Show("Bạn đã dính boom !", "GameOver", MessageBoxButtons.RetryCancel, MessageBoxIcon.None);
             if(result == DialogResult.Retry)

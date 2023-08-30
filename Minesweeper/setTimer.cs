@@ -8,7 +8,6 @@ namespace Minesweeper
 {
     internal class time
     {
-        public Form form;
         public Label label;
         private System.Windows.Forms.Timer timer;
         private int giay = 0;
@@ -16,9 +15,8 @@ namespace Minesweeper
         private bool isGameOver = false;
         public event EventHandler GameOverEvent;
 
-        public time (Form form, Label label)
+        public time (Label label)
         {
-            this.form = form;
             this.label = label;
 
         }
