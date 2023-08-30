@@ -11,6 +11,7 @@ namespace Minesweeper
     internal class functions
     {
         public Form form;
+        public time timer;
         public string checkForm;
         public static List<Button> buttons = new List<Button>();
         private ColorChanged color = new ColorChanged();
@@ -18,11 +19,25 @@ namespace Minesweeper
         Random random = new Random();
         Auto auto = new Auto();
 
+        //Contructor chính dùng để khởi tạo game
+        public functions(Form form, string check, time timer)
+        {
+            this.form = form;
+            this.checkForm = check;
+            this.timer = timer;
+        }
+
+        //Contructor này có nhằm mục đích sử dụng hàm ButtonClear()
         public functions(Form form, string check)
         {
             this.form = form;
-            checkForm = check;
+            this.checkForm = check;
         }
+
+        /// <summary>
+        /// Hàm chính thực hiện toàn bộ class functions khi gọi đến nó.
+        /// Hàm này sẽ điền đầy GroupBox bằng các button là các ô của trò chơi
+        /// </summary>
         public void FillGroupGame(GroupBox groupBox, int rows, int columns)
         {
             int buttonWidth = groupBox.Width / columns;
@@ -47,6 +62,15 @@ namespace Minesweeper
             RanDomBoom(groupBox, rows, columns);
         }
 
+        /// <summary>
+        /// Hàm RanDomBoom khởi tạo các ô chưa có boom và gán sự kiện khi click vào ô không có boom cho chúng
+        /// sau đó tạo ra ngẫu nhiên boom ở ngẫu nhiên ô và gán sự kiện khi click vào boom cho chúng
+        /// Tiếp đến với những button.Tag != -1 thì ta gán hàm checkBoom cho chúng để khởi tạo số lượng boom xung quanh ô đó
+        /// 
+        /// Chú thích:
+        /// button.Tag biểu thị số lượng boom ở xung quanh ô đó 
+        /// {-1: ô đó là boom, 0: xung quanh không có boom, 1: là xung quanh có 1 quả boom,...}
+        /// </summary>
         public void RanDomBoom(GroupBox groupBox, int rows, int columns)
         {
             int soLuong = (rows *columns)*20/100;
@@ -75,6 +99,9 @@ namespace Minesweeper
             }
         }
 
+        /// <summary>
+        /// Hàm checkBoom này trả về số lượng boom xung quanh ô
+        /// </summary>
         private int checkBoom(Button button,  int rows, int columns)
         {
             int boom = 0;
@@ -325,7 +352,10 @@ namespace Minesweeper
             }
             if (victory == true)
             {
-                if(checkForm != "Form4")
+                highscore highscore = new highscore();
+                timer.StopTimer();
+                highscore.saveHighScore(checkForm, timer);
+                if (checkForm != "Form4")
                 {
                     DialogResult result = MessageBox.Show("Bạn đã chiến thắng !", "Victory", MessageBoxButtons.OK, MessageBoxIcon.None);
                     if (result == DialogResult.OK)
@@ -408,6 +438,7 @@ namespace Minesweeper
         /// </summary>
         private void GameOver()
         {
+            timer.StopTimer();
             DialogResult result = MessageBox.Show("Bạn đã dính boom !", "GameOver", MessageBoxButtons.RetryCancel, MessageBoxIcon.None);
             if(result == DialogResult.Retry)
             {

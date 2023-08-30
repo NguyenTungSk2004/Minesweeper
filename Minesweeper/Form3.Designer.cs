@@ -32,10 +32,10 @@
             groupGameForm2 = new GroupBox();
             timeView = new Label();
             label2 = new Label();
-            highScore = new Button();
             pictureBox1 = new PictureBox();
             settings = new Button();
             home = new Label();
+            highScore = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -72,16 +72,6 @@
             label2.Text = "12x12";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // highScore
-            // 
-            highScore.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            highScore.Location = new Point(61, 25);
-            highScore.Name = "highScore";
-            highScore.Size = new Size(188, 67);
-            highScore.TabIndex = 3;
-            highScore.Text = "HighScore";
-            highScore.UseVisualStyleBackColor = true;
-            // 
             // pictureBox1
             // 
             pictureBox1.Dock = DockStyle.Fill;
@@ -95,7 +85,7 @@
             // settings
             // 
             settings.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
-            settings.Location = new Point(741, 680);
+            settings.Location = new Point(740, 680);
             settings.Name = "settings";
             settings.Size = new Size(103, 51);
             settings.TabIndex = 9;
@@ -114,6 +104,17 @@
             home.TabIndex = 8;
             home.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // highScore
+            // 
+            highScore.BackColor = SystemColors.ControlLight;
+            highScore.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            highScore.Location = new Point(49, 24);
+            highScore.Name = "highScore";
+            highScore.Size = new Size(204, 67);
+            highScore.TabIndex = 1;
+            highScore.Text = "HighScore";
+            highScore.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -121,8 +122,8 @@
             ClientSize = new Size(844, 731);
             Controls.Add(settings);
             Controls.Add(home);
-            Controls.Add(highScore);
             Controls.Add(label2);
+            Controls.Add(highScore);
             Controls.Add(timeView);
             Controls.Add(groupGameForm2);
             Controls.Add(pictureBox1);
@@ -138,9 +139,9 @@
         private GroupBox groupGameForm2;
         private Label timeView;
         private Label label2;
-        private Button highScore;
         private PictureBox pictureBox1;
         private Button settings;
         private Label home;
+        private Label highScore;
     }
 }

@@ -25,8 +25,11 @@ namespace Minesweeper
         private void Form4_Load(object sender, EventArgs e)
         {
             time timer = new time(timeView);
-            functions function = new functions(this, "Form4");
+            functions function = new functions(this, "Form4", timer);
+            highscore score = new highscore();
+           
             function.FillGroupGame(groupGameForm3, 15, 15);
+            highScore.Text = score.highScore_Show("Form4");
             timer.startTimer();
             home.Click += new EventHandler(BackHome); //thêm sự kiện click nút home
             settings.Click += new EventHandler(settings_Click); //Thêm sự kiện click nút settings

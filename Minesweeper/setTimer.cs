@@ -10,12 +10,12 @@ namespace Minesweeper
     {
         public Label label;
         private System.Windows.Forms.Timer timer;
-        private int giay = 0;
-        private int phut = 0;
+        public int giay = 0;
+        public int phut = 0;
         private bool isGameOver = false;
         public event EventHandler GameOverEvent;
 
-        public time (Label label)
+        public time ( Label label)
         {
             this.label = label;
 
@@ -28,7 +28,7 @@ namespace Minesweeper
             timer.Tick += timer3_Tick;
             timer.Start();
         }
-        internal void Function_GameOverEvent()
+        internal void StopTimer()
         {
             timer.Stop();
             isGameOver = true;

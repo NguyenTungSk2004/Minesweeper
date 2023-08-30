@@ -14,8 +14,11 @@
         private void Form1_Load(object sender, EventArgs e)
         {
             time timer = new time(timeView);
-            functions function = new functions(this, "Form1");
+            functions function = new functions(this, "Form1", timer);
+            highscore score = new highscore();  
+
             function.FillGroupGame(groupGameForm1, 10, 10);
+            highScore.Text = score.highScore_Show("Form1");
             timer.startTimer();
             home.Click += new EventHandler(BackHome);
             settings.Click += new EventHandler(settings_Click);
