@@ -12,9 +12,11 @@ namespace Minesweeper
     {
         public Form form;
         public time timer;
-        public string checkForm;
-        public static List<Button> buttons = new List<Button>();
         private ColorChanged color = new ColorChanged();
+        public static List<Button> buttons = new List<Button>();
+       
+        public string checkForm;
+        private bool ktr = false;
 
         Random random = new Random();
         Auto auto = new Auto();
@@ -331,13 +333,15 @@ namespace Minesweeper
             else if(e.Button == MouseButtons.Right)
             {
                 btn.Text = "";
-                if (btn.Image == null)
+                if (ktr == false)
                 {
+                    ktr = true;
                     string imagePath = Path.Combine(Minesweeper, "flag.png");
                     btn.Image = Image.FromFile(imagePath);
                 }
                 else
                 {
+                    ktr = false;
                     btn.Image = null;
                 }
             }
