@@ -46,7 +46,6 @@ namespace Minesweeper
                 }
                 hienthigio();
             }
-
         }
         private void hienthigio()
         {
